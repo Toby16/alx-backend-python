@@ -5,11 +5,18 @@ Complex types - mixed list
 from typing import List, Union
 
 
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
+    '''Computes the sum of a list of integers and floating-point numbers.
+    '''
+    return float(sum(mxd_lst))
+
+
+"""
 def sum_mixed_list(mxd_lst: List[Union[float, int]]) -> float:
-    """
     function to add int and float in a list and return it's float value
-    """
+
     return sum(mxd_lst)
+"""
 
 
 if __name__ == "__main__":
