@@ -5,11 +5,11 @@ Basic annotations - floor
 import math
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """
     function to return floor value of a float
     """
-    return math.floor(n)
+    return int(n)
 
 
 if __name__ == "__main__":
