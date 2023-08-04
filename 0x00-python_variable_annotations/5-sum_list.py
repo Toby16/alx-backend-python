@@ -4,7 +4,7 @@ Complex types - list of floats
 """
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     function to return sum of all floats in a list
     """
