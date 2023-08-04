@@ -4,11 +4,11 @@ Complex types - list of floats
 """
 
 
-def sum_list(input_list: [float]) -> float:
+def sum_list(input_list: list[float]) -> float:
     """
     function to return sum of all floats in a list
     """
-    return float(sum(input_list))
+    return sum(input_list)
 
 
 if __name__ == "__main__":
