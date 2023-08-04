@@ -2,10 +2,10 @@
 """
 Duck typing - first element of a sequence
 """
-from typing import Any, List, Union
+from typing import Any, Sequence, Union
 
 
-def safe_first_element(lst: List[Any]) -> Union[Any, None]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
     Retrieves the first element of a sequence if it exists.
     """
