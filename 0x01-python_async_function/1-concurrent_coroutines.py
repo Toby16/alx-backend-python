@@ -14,10 +14,10 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     function that executes wait_random, n times.
     """
     tasks = [wait_random(max_delay) for _ in range(n)]
-    return await asyncio.gather(*tasks)
+    return sorted(await asyncio.gather(*tasks))
 
 
-if __name__ == "__main_":
+if __name__ == "__main__":
     print(asyncio.run(wait_n(5, 5)))
     print(asyncio.run(wait_n(10, 7)))
     print(asyncio.run(wait_n(10, 0)))
