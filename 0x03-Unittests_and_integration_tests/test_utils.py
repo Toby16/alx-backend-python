@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Parameterize a unit test
+Mock HTTP calls
 """
 import unittest
 from parameterized import parameterized
