@@ -6,7 +6,7 @@ Mock HTTP calls
 import unittest
 from parameterized import parameterized
 from typing import Dict, Tuple, Union
-from unittest.mock import Mock
+from unittest.mock import patch, Mock
 from utils import (access_nested_map,
                    get_json)
 
