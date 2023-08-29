@@ -6,7 +6,8 @@ Parameterize and patch as decorators
 import unittest
 from client import GithubOrgClient
 from typing import Dict
-from unittest.mock import MagicMock
+from unittest.mock import (MagicMock,
+                           patch)
 
 
 class TestGithubOrgClient(unittest.TestCase):
