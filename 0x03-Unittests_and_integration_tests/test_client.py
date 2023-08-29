@@ -4,7 +4,9 @@ Parameterize and patch as decorators
 """
 
 import unittest
+
 from client import GithubOrgClient
+from parameterized import parameterized
 from typing import Dict
 from unittest.mock import (MagicMock,
                            patch)
